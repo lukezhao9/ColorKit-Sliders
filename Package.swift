@@ -27,6 +27,6 @@ let package = Package(
             dependencies: ["CGExtender", "Shapes", "bez"]),
         .testTarget(
             name: "SlidersTests",
-            dependencies: ["ColorKit-Sliders""]),
+            dependencies: ["ColorKit-Sliders"]),
     ]
 )
