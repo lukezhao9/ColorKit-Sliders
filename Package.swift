@@ -9,8 +9,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "Sliders",
-            targets: ["Sliders"]),
+            name: "ColorKit-Sliders",
+            targets: ["ColorKit-Sliders"]),
     ],
     dependencies: [
         .package(url: "https://github.com/kieranb662/CGExtender.git", from: "1.0.1"),
